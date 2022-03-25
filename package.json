@@ -2,7 +2,7 @@
   "name": "problem-set-06",
   "version": "0.1.0",
   "private": true,
-  "homepage": "problem-set-06",
+  "homepage": "https://ariel-chiahsun.github.io/problem-set-06/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
