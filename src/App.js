@@ -43,6 +43,7 @@ function App() {
 
     return (
         <div className="App">
+            <a href="https://github.com/ariel-chiahsun/problem-set-06/tree/main/src">Link to source code</a>
             <h1>Rhyme Finder (579 Problem Set 6)</h1>
             <SavedWords savedWordsList={savedWordsList}/>
             <WordForm query={query} setQuery={setQuery} type={type} setType={setType} url={url} setUrl={setUrl}/>
