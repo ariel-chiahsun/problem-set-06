@@ -1,5 +1,6 @@
 import React, {useReducer} from 'react'
- import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button'
+// import Form from 'react-bootstrap/Form'
 import 'bootstrap/dist/css/bootstrap.min.css'
 // states as properties of a single object
 const initialState = {
@@ -48,6 +49,7 @@ function WordForm(props) {
             >Show rhyming words
             </button>
             <button
+                className="btn btn-primary"
                 type="submit"
                 onClick={e => dispatch({
                     key: 'topic',
